@@ -7,10 +7,10 @@ int main()
 {
 	setlocale(LC_ALL, "Russian_Russia.1251");
 	int n, k = 1, chi;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã·Ã¨Ã±Ã«Ã®: "; cin >> n;
 	equa(n, k);
 	chi = n * k;
-	cout << "Íîâîå ÷èñëî: " << chi  << endl;
+	cout << "ÃÃ®Ã¢Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®: " << chi  << endl;
 	return(0);
 }
 void equa(int n, int k)
